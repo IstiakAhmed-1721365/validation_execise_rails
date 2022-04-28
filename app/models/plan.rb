@@ -1,5 +1,7 @@
 class Plan < ApplicationRecord
 
+    belongs_to :user
+    
     #validates :name, length: {in:6..10}
 
 
